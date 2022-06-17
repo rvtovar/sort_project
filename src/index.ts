@@ -3,17 +3,13 @@ import { NumbersCollection } from './NumbersCollection';
 import { CharactersCollection } from './CharCollection';
 import { LinkedList } from './linkedList';
 
-// const numbers = new NumbersCollection([1, 4, 3, 2]);
-// const sorter = new Sorter(numbers);
-// console.log(sorter.collection);
-// sorter.sort();
-// console.log(sorter.collection);
+const numbers = new NumbersCollection([1, 4, 3, 2]);
+numbers.sort();
+console.log(numbers.data);
 
-// const str = new CharactersCollection('Xbeya');
-// const sorter = new Sorter(str);
-// console.log(sorter.collection);
-// sorter.sort();
-// console.log(sorter.collection);
+const str = new CharactersCollection('Xbeya');
+str.sort();
+console.log(str.data);
 
 const linkedList = new LinkedList();
 linkedList.add(500);

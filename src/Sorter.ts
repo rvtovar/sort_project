@@ -1,14 +1,8 @@
-export interface Sortable {
-  compare(index: number): boolean;
-  swap(index: number): void;
-  length: number;
-}
-
 export abstract class Sorter {
   abstract length: number;
   abstract compare(index: number): boolean;
-
   abstract swap(index: number): void;
+
   sort(): void {
     const { length } = this;
 
