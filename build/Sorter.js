@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
 class Sorter {
-    constructor(collection /* Todo fix me!! */) {
+    constructor(collection) {
         this.collection = collection;
     }
     sort() {
